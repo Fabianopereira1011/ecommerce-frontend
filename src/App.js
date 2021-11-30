@@ -5,6 +5,8 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
+import Header from "./components/Header";
+import Home from "./Pages/Home";
 
 function App() {
   return (
@@ -21,7 +23,8 @@ function App() {
           </Route> 
           
           <Route path="/">
-            <h1>Pagina Principal</h1>
+            <Header/>
+            <Home/>
           </Route>
 
           </Switch>
