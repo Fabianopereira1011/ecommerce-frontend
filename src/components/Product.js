@@ -9,7 +9,7 @@ function Product({ id, title, image, price, rating }) {
       <div className="product__info">
         <p>{title}</p>
         <p className="product__price">
-          <small>$</small>
+          <small>R$ </small>
           <strong>{price}</strong>
         </p>
         <div className="product__rating">
@@ -21,11 +21,13 @@ function Product({ id, title, image, price, rating }) {
         </div>
       </div>
 
-      <img src={image} alt="" />
+      <div className="product_img">        
+        <img src={image} alt="" width="100%"/>
+      </div>
 
-      <button >Add to Basket</button>
+      <button >Adicione ao cesto</button>
     </div>
-  );
+  )
 }
 
 export default Product;

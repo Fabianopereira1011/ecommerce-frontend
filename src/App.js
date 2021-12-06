@@ -12,7 +12,7 @@ function App() {
   return (
      <Router>
       <div className="app">
-          <Switch>
+        <Switch>
                       
           <Route path="/login">
             <h1>Tela de login</h1>
@@ -27,7 +27,7 @@ function App() {
             <Home/>
           </Route>
 
-          </Switch>
+        </Switch>
       </div>
     </Router>
   );
