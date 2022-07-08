@@ -21,16 +21,18 @@ function Home() {
             <div className="titulo">    
                 <h1>Under development</h1>
                 <h2>by Fabiano</h2> 
+
+                <div className="proj__image">
+                    <img
+                    src="project-overview.png"
+                    alt=""
+                    width="80%"
+                    />
+                </div>
                 
 
             </div>
-                    <div className="home-prod-list">
-                    <img
-                src="project-overview.png"
-                alt=""
-                width="75%"
-                />
-                    </div> 
+                
 
         </div>
     )
