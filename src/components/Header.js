@@ -13,8 +13,8 @@ function Header() {
         <Link to="/">
           <img
             className="header__logo"
-            src="amazon_logo.png"
-            alt=""
+            src="amazon_logoDELETED.png"
+            alt="     -"
           />
         </Link>
 

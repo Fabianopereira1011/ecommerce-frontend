@@ -23,7 +23,7 @@ function App() {
           </Route> 
           
           <Route path="/">
-            <Header/>
+            {/* <Header/> */}
             <Home/>
           </Route>
 
